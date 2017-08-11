@@ -58,3 +58,14 @@ Modify **make -j4** on line 65, the four should be the number of cores you have 
 For example:  
 sudo docker build -t image-name:image-tag .
 
+
+### 2017-08-11
+
+#### CUDA
+- nouvelle image docker pour nvidia/cuda 
+	- https://hub.docker.com/r/nvidia/cuda/
+
+#### OPENCV
+- utilisation des sources git avec une branche spécialisé pour récupérer les sources OpenCV
+	- https://github.com/opencv/opencv/issues/6677
+	
