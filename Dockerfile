@@ -1,6 +1,7 @@
-FROM nvidia/cuda:8.0-cudnn7-devel
+# FROM nvidia/cuda:8.0-cudnn7-devel
+FROM ubuntu:16.04
 
-MAINTAINER Chip Garner <chip@garnertotalenergy.com>
+MAINTAINER Lionel Atty <yoyonel@hotmail.com>
 
 RUN mkdir OpenCV && cd OpenCV
 
